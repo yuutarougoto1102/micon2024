@@ -1,0 +1,43 @@
+#ifndef Micon2024_CustomLib_h
+#define Micon2024_CustomLib_h
+
+// UART設定
+#define UART_BITRATE 9600
+
+// 命令定義
+#define NOTICE_FINISH_INIT 0
+#define MEIREI_CHANGE_STATE_READY 1
+#define MEIREI_CHANGE_STATE_GAME 2
+#define MEIREI_CHANGE_STATE_RESULT 3
+#define MEIREI_CHANGE 4
+
+#define MEIREI_LED_0_ON 5
+#define MEIREI_LED_1_ON 6
+#define MEIREI_LED_2_ON 7
+#define MEIREI_LED_3_ON 8
+#define MEIREI_LED_4_ON 9
+#define MEIREI_LED_0_OFF 10
+#define MEIREI_LED_1_OFF 11
+#define MEIREI_LED_2_OFF 12
+#define MEIREI_LED_3_OFF 13
+#define MEIREI_LED_4_OFF 14
+#define NOTICE_FINISH_INIT 15
+#define MEIREI_GAME_CONTINUE 16
+#define MEIREI_GAME_END 17
+
+
+#define MEIREI_VOID 254
+
+// STATE定義
+#define STATE_INIT 0
+#define STATE_READY 1
+#define STATE_GAME 2
+#define STATE_RESULT 3
+
+// GAME_STAT定義
+#define GAME_PREGAME 0
+#define GAME_PLAYING 1
+#define GAME_FEVER 2
+#define GAME_END 3
+
+#endif
